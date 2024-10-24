@@ -22,11 +22,11 @@ const WhatWeClean = () => {
         <StyledWhatWeCleanContentWrapper>
           <StyledWhatWeCleanTitle>מה אנחנו עושים?</StyledWhatWeCleanTitle>
           <StyledMobileGalleryWrapper>
-            <StyledGalleryRegular backgroundImagePath={"/images/gallery-1.jpeg"} />
-            <StyledGalleryRegular backgroundImagePath={"/images/gallery-2.jpeg"} />
-            <StyledGalleryRegular backgroundImagePath={"/images/gallery-3.jpeg"} />
-            <StyledGalleryRegular backgroundImagePath={"/images/gallery-4.jpeg"} />
-            <StyledGalleryRegular backgroundImagePath={"/images/gallery-5.jpeg"} />
+            <StyledGalleryRegular backgroundImagePath={"./images/gallery-1.jpeg"} />
+            <StyledGalleryRegular backgroundImagePath={"./images/gallery-2.jpeg"} />
+            <StyledGalleryRegular backgroundImagePath={"./images/gallery-3.jpeg"} />
+            <StyledGalleryRegular backgroundImagePath={"./images/gallery-4.jpeg"} />
+            <StyledGalleryRegular backgroundImagePath={"./images/gallery-5.jpeg"} />
           </StyledMobileGalleryWrapper>
         </StyledWhatWeCleanContentWrapper>
       </StyledWhatWeCleanWrapper>
