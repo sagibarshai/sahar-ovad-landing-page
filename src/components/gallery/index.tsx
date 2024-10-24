@@ -25,9 +25,9 @@ const WhatWeClean = () => {
           <StyledMobileGalleryWrapper>
             <IconText icon={<StyledGalleryRegular backgroundImagePath={"./images/gallery-1.jpeg"} />} title="רשת שקופה בלתי נראת לעין - להיט!" />
             <IconText icon={<StyledGalleryRegular backgroundImagePath={"./images/gallery-8.jpeg"} />} title="החלפת מנועים של תריסים חשמליים" />
-            <IconText icon={<StyledGalleryRegular backgroundImagePath={"./images/gallery-4.jpeg"} />} title="דלת רשת" />
-            <IconText icon={<StyledGalleryRegular backgroundImagePath={"./images/gallery-9.jpeg"} />} title="מעבר נגיש לבעלי חיים" />
-            <IconText icon={<StyledGalleryRegular backgroundImagePath={"./images/gallery-5.jpeg"} />} title="החלפת גומיות למקלחונים" />
+            <IconText icon={<StyledGalleryRegular backgroundImagePath={"./images/gallery-4.jpeg"} />} title="מעבר נגיש לבעלי חיים" />
+            <IconText icon={<StyledGalleryRegular backgroundImagePath={"./images/gallery-9.jpeg"} />} title="החלפת גומיות למקלחונים" />
+            <IconText icon={<StyledGalleryRegular backgroundImagePath={"./images/gallery-5.jpeg"} />} title="דלת רשת" />
           </StyledMobileGalleryWrapper>
         </StyledWhatWeCleanContentWrapper>
       </StyledWhatWeCleanWrapper>
