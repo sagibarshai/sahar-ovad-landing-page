@@ -26,6 +26,7 @@ export const StyledWhatWeCleanContentWrapper = styled.div`
 
 export const StyledWhatWeCleanTitle = styled.h2`
   font-size: ${({ theme }) => theme.fonts.sizes.title};
+  text-decoration: underline;
   @media screen and (${({ theme }) => theme.breakPoints.small}) {
     font-size: ${({ theme }) => theme.fonts.sizes.titleMobile};
   }
@@ -68,7 +69,7 @@ export const StyledGalleryRightTop = styled.div`
 
 export const StyledGalleryRightMiddle = styled.div`
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 2fr;
   gap: ${({ theme }) => theme.spaces.xl};
 `;
 
@@ -85,7 +86,7 @@ export const StyledGalleryRegular = styled.div<StyledProps>`
   background-size: cover;
   background-position: center;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 2px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 15px 1px rgba(0, 0, 0, 0.4);
   transition: box-shadow 0.3s ease-in-out;
   @media screen and (${({ theme }) => theme.breakPoints.small}) {
     height: 400px;

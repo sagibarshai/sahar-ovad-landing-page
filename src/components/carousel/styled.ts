@@ -24,6 +24,8 @@ export const StyledCarouselTitle = styled.h3`
   padding: 0;
   margin: 0;
   font-size: ${({ theme }) => theme.fonts.sizes.title};
+  text-decoration: underline;
+
   @media screen and (${({ theme }) => theme.breakPoints.small}) {
     font-size: ${({ theme }) => theme.fonts.sizes.titleMobile};
   }

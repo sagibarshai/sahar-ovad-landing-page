@@ -13,7 +13,11 @@ const Header = () => {
       <StyledHeaderContentWrapper>
         <StyledHeaderLogo src="./images/logo.svg" />
         <StyledHeaderTitle> עבודות זכוכית ואלומיניום </StyledHeaderTitle>
-        <StyledHeaderSubtitle>ניקוי ספות עושים עם Restart, נקיון והסרת כתמים קשים עם ציוד וחומרים מתקדמים </StyledHeaderSubtitle>
+        <StyledHeaderSubtitle>
+          ברוכים הבאים למומחים בעבודות זכוכית, אלומיניום ורשתות -
+          <br />
+          פתרונות איכותיים ומעוצבים בהתאמה אישית עם שירות מקצועי ואמינות בלתי מתפשרת.
+        </StyledHeaderSubtitle>
         <StyledHeaderImg />
       </StyledHeaderContentWrapper>
     </StyledHeaderWrapper>

@@ -24,6 +24,7 @@ export const StyledWhyChooseUsTitle = styled.h1`
   margin: 0;
   color: ${({ theme }) => theme.palette.colors.texts.black};
   font-size: ${({ theme }) => theme.fonts.sizes.title};
+  text-decoration: underline;
   @media screen and (${({ theme }) => theme.breakPoints.small}) {
     font-size: ${({ theme }) => theme.fonts.sizes.titleMobile};
   }

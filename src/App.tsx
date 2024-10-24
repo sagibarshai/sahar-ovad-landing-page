@@ -66,7 +66,7 @@ const App = () => {
         <Header />
         <WhyChooseUs />
         <WhatWeClean />
-        <Carousel title={"לקוחות מספרים:"} elements={recommendations} />
+        <Carousel title={"לקוחות מספרים"} elements={recommendations} />
         <ContactUs />
       </StyledAppWrapper>
     </ThemeProvider>
