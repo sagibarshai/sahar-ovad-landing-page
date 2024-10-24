@@ -40,16 +40,16 @@ const WhatWeClean = () => {
         <StyledGalleryWrapper>
           <StyledGalleryRight>
             <StyledGalleryRightTop>
-              <StyledGalleryRegular backgroundImagePath={"/images/gallery-1.jpeg"} />
-              <StyledGalleryRegular backgroundImagePath={"/images/gallery-2.jpeg"} />
+              <StyledGalleryRegular backgroundImagePath={"./images/gallery-1.jpeg"} />
+              <StyledGalleryRegular backgroundImagePath={"./images/gallery-2.jpeg"} />
             </StyledGalleryRightTop>
 
             <StyledGalleryRightTop>
-              <StyledGalleryRegular backgroundImagePath={"/images/gallery-4.jpeg"} />
-              <StyledGalleryRegular backgroundImagePath={"/images/gallery-5.jpeg"} />
+              <StyledGalleryRegular backgroundImagePath={"./images/gallery-4.jpeg"} />
+              <StyledGalleryRegular backgroundImagePath={"./images/gallery-5.jpeg"} />
             </StyledGalleryRightTop>
           </StyledGalleryRight>
-          <StyledGalleryLeft backgroundImagePath={"/images/gallery-6.jpeg"} />
+          <StyledGalleryLeft backgroundImagePath={"./images/gallery-6.jpeg"} />
         </StyledGalleryWrapper>
       </StyledWhatWeCleanContentWrapper>
     </StyledWhatWeCleanWrapper>
