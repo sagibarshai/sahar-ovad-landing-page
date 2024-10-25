@@ -38,7 +38,8 @@ export const StyledHeaderSubtitle = styled.h3`
   margin: 0;
   color: ${({ theme }) => theme.palette.colors.texts.white};
   font-size: ${({ theme }) => theme.fonts.sizes.subtitle};
-  font-weight: 500;
+  font-weight: 400;
+
   @media screen and (${({ theme }) => theme.breakPoints.small}) {
     font-size: ${({ theme }) => theme.fonts.sizes.subtitleMobile};
   }

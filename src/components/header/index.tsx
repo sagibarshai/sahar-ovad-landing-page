@@ -14,9 +14,9 @@ const Header = () => {
         <StyledHeaderLogo src="./images/logo.svg" />
         <StyledHeaderTitle> עבודות זכוכית ואלומיניום </StyledHeaderTitle>
         <StyledHeaderSubtitle>
-          ברוכים הבאים למומחים בעבודות זכוכית, אלומיניום ורשתות -
+          ברוכים הבאים ל-GLASSTECH, אצלנו תמצאו את כל הפתרונות בעבודות זכוכית, אלומיניום ורשתות
           <br />
-          פתרונות איכותיים ומעוצבים בהתאמה אישית עם שירות מקצועי ואמינות בלתי מתפשרת.
+          מותאמים בדיוק למה שאתם צריכים, עם דגש על שירות מקצועי ואמין .
         </StyledHeaderSubtitle>
         <StyledHeaderImg />
       </StyledHeaderContentWrapper>
