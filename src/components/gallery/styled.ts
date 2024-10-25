@@ -35,13 +35,12 @@ export const StyledWhatWeCleanTitle = styled.h2`
 export const StyledGalleryWrapper = styled.div`
   display: grid;
   grid-template-columns: 2fr 1fr;
-  height: auto;
+  grid-template-rows: 4fr 3fr;
   width: 100%;
   padding: ${({ theme }) => theme.spaces.l} 0;
-  width: 100%;
-  height: 800px;
   display: grid;
   gap: ${({ theme }) => theme.spaces.xl};
+  height: 1500px;
 `;
 
 export const StyledGalleryRight = styled.div`
@@ -50,12 +49,10 @@ export const StyledGalleryRight = styled.div`
   grid-template-rows: 1fr 1fr;
   gap: ${({ theme }) => theme.spaces.xl};
 `;
-export const StyledGalleryLeft = styled.div<StyledProps>`
+export const StyledGalleryLeft = styled.div`
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-  background-color: black;
-  background-image: url(${({ backgroundImagePath }) => backgroundImagePath});
   background-size: cover;
   background-position: center;
   border-radius: 8px;

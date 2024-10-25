@@ -8,7 +8,6 @@ import {
   StyledCarouselContentWrapper,
   StyledCarouselTitle,
   StyledCarouselWrapper,
-  StyledQuotes,
   StyledTextQuotesWrapper,
   StyledTextWrapper,
 } from "./styled";
@@ -22,8 +21,8 @@ const Carousel = ({ elements, title }: Props) => {
   const [currentElementIndex, setCurrentElementIndex] = useState<number>(0);
 
   const onSlide = (type: ArrowType) => {
-    if (type === "next" && currentElementIndex === elements.length - 1) return;
-    if (type === "previous" && currentElementIndex === 0) return;
+    if (type === "next" && !elements[currentElementIndex + 1]) return;
+    if (type === "previous" && !elements[currentElementIndex - 1]) return;
     type === "next" ? setCurrentElementIndex((state) => state + 1) : setCurrentElementIndex((state) => state - 1);
     restartInterval();
   };
@@ -51,6 +50,8 @@ const Carousel = ({ elements, title }: Props) => {
       return "previous";
     } else return dir;
   }, [dir, currentElementIndex]);
+
+  console.log("animationDir ", animationDir);
 
   return (
     <StyledCarouselWrapper ref={ref}>

@@ -1,6 +1,8 @@
 import { IconClean, IconClock, IconFast, IconHandShake, IconMosquito, IconOk, IconSaveMoney, IconTools } from "../../icons";
 import InfoCard from "../info-card";
 import {
+  StyledContentCard,
+  StyledContentWrapper,
   StyledInfoCardsWrapper,
   StyledWhyChooseUsContentWrapper,
   StyledWhyChooseUsText,
@@ -19,44 +21,44 @@ const WhyChooseUs = () => {
             icon={<IconMosquito size={48} />}
             title="החלפה ותיקון רשתות נגד יתושים"
             content={
-              <div>
-                <b>רשת בלויה ודהויה? </b>
+              <StyledContentWrapper>
+                <StyledContentCard>רשת בלויה ודהויה? </StyledContentCard>
                 <br />
-                <b>רשת קרועה ולא מתוחה?</b>
+                <StyledContentCard>רשת קרועה ולא מתוחה?</StyledContentCard>
                 <br />
-                <b>אין רשת בכלל?</b>
+                <StyledContentCard>אין רשת בכלל?</StyledContentCard>
                 <br />
-                <b>שירות ותיקון בבית הלקוח</b>
-              </div>
+                <StyledContentCard>שירות ותיקון בבית הלקוח!</StyledContentCard>
+              </StyledContentWrapper>
             }
           />
           <InfoCard
             icon={<IconHandShake size={48} />}
             title="תיקוני תריסים"
             content={
-              <div>
-                <b> תיקוני תריסים חשמליים</b>
+              <StyledContentWrapper>
+                <StyledContentCard> תיקוני תריסים חשמליים</StyledContentCard>
                 <br />
-                <b> תיקוני תריסי גלילה</b>
+                <StyledContentCard> תיקוני תריסי גלילה</StyledContentCard>
                 <br />
-                <b> שירות ותיקון בבית הלקוח</b>
+                <StyledContentCard> שירות ותיקון בבית הלקוח!</StyledContentCard>
                 <br />
-              </div>
+              </StyledContentWrapper>
             }
           />
           <InfoCard
             icon={<IconTools size={48} />}
             title="החלפת גומיות למקלחונים"
             content={
-              <div>
-                <b>אין לכם מקלחון בבית?</b>
+              <StyledContentWrapper>
+                <StyledContentCard>אין לכם מקלחון בבית?</StyledContentCard>
                 <br />
-                <b>הגומי במקלחון בלוי?</b>
+                <StyledContentCard>הגומי במקלחון בלוי?</StyledContentCard>
                 <br />
-                <b> המים יוצאים החוצה?</b>
+                <StyledContentCard> המים יוצאים החוצה?</StyledContentCard>
                 <br />
-                <b> שירות ותיקון בבית הלקוח</b>
-              </div>
+                <StyledContentCard> שירות ותיקון בבית הלקוח!</StyledContentCard>
+              </StyledContentWrapper>
             }
           />
         </StyledInfoCardsWrapper>

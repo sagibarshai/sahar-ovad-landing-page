@@ -5,7 +5,6 @@ import {
   StyledGalleryLeft,
   StyledGalleryRegular,
   StyledGalleryRight,
-  StyledGalleryRightMiddle,
   StyledGalleryRightTop,
   StyledGalleryWrapper,
   StyledMobileGalleryWrapper,
@@ -24,10 +23,12 @@ const WhatWeClean = () => {
           <StyledWhatWeCleanTitle>תמונות מהשטח</StyledWhatWeCleanTitle>
           <StyledMobileGalleryWrapper>
             <IconText icon={<StyledGalleryRegular backgroundImagePath={"./images/gallery-1.jpeg"} />} title="רשת שקופה בלתי נראת לעין - להיט!" />
-            <IconText icon={<StyledGalleryRegular backgroundImagePath={"./images/gallery-8.jpeg"} />} title="החלפת מנועים של תריסים חשמליים" />
-            <IconText icon={<StyledGalleryRegular backgroundImagePath={"./images/gallery-4.jpeg"} />} title="מעבר נגיש לבעלי חיים" />
+            <IconText icon={<StyledGalleryRegular backgroundImagePath={"./images/gallery-4.jpeg"} />} title="החלפת מנועים של תריסים חשמליים" />
+            <IconText icon={<StyledGalleryRegular backgroundImagePath={"./images/gallery-8.jpeg"} />} title="מעבר נגיש לבעלי חיים" />
             <IconText icon={<StyledGalleryRegular backgroundImagePath={"./images/gallery-9.jpeg"} />} title="החלפת גומיות למקלחונים" />
-            <IconText icon={<StyledGalleryRegular backgroundImagePath={"./images/gallery-5.jpeg"} />} title="דלת רשת" />
+            <IconText icon={<StyledGalleryRegular backgroundImagePath={"./images/gallery-6.jpeg"} />} title="דלת רשת" />
+            <IconText icon={<StyledGalleryRegular backgroundImagePath={"./images/gallery-2.jpeg"} />} title="מעבר נגיש לבעלי חיים" />
+            <IconText icon={<StyledGalleryRegular backgroundImagePath={"./images/gallery-7.jpeg"} />} title="החלפת גומיות למקלחונים" />
           </StyledMobileGalleryWrapper>
         </StyledWhatWeCleanContentWrapper>
       </StyledWhatWeCleanWrapper>
@@ -42,16 +43,19 @@ const WhatWeClean = () => {
           <StyledGalleryRight>
             <StyledGalleryRightTop>
               <IconText icon={<StyledGalleryRegular backgroundImagePath={"./images/gallery-1.jpeg"} />} title="רשת שקופה בלתי נראת לעין - להיט!" />
-              <IconText icon={<StyledGalleryRegular backgroundImagePath={"./images/gallery-8.jpeg"} />} title="החלפת מנועים של תריסים חשמליים" />
+              <IconText icon={<StyledGalleryRegular backgroundImagePath={"./images/gallery-4.jpeg"} />} title="החלפת מנועים של תריסים חשמליים" />
             </StyledGalleryRightTop>
 
             <StyledGalleryRightTop>
-              <IconText icon={<StyledGalleryRegular backgroundImagePath={"./images/gallery-4.jpeg"} />} title="מעבר נגיש לבעלי חיים" />
+              <IconText icon={<StyledGalleryRegular backgroundImagePath={"./images/gallery-8.jpeg"} />} title="מעבר נגיש לבעלי חיים" />
               <IconText icon={<StyledGalleryRegular backgroundImagePath={"./images/gallery-9.jpeg"} />} title="החלפת גומיות למקלחונים" />
             </StyledGalleryRightTop>
           </StyledGalleryRight>
-
-          <IconText icon={<StyledGalleryRegular backgroundImagePath={"./images/gallery-5.jpeg"} />} title="דלת רשת" />
+          <StyledGalleryLeft>
+            <IconText icon={<StyledGalleryRegular backgroundImagePath={"./images/gallery-6.jpeg"} />} title="דלת רשת" />
+          </StyledGalleryLeft>
+          <IconText icon={<StyledGalleryRegular backgroundImagePath={"./images/gallery-2.jpeg"} />} title="מעבר נגיש לבעלי חיים" />
+          <IconText icon={<StyledGalleryRegular backgroundImagePath={"./images/gallery-7.jpeg"} />} title="החלפת גומיות למקלחונים" />
         </StyledGalleryWrapper>
       </StyledWhatWeCleanContentWrapper>
     </StyledWhatWeCleanWrapper>

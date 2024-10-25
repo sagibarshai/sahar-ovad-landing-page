@@ -43,9 +43,23 @@ export const StyledInfoCardsWrapper = styled.div`
   display: grid;
   gap: ${({ theme }) => theme.spaces.xl};
   grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+
   grid-template-rows: auto;
   @media screen and (${({ theme }) => theme.breakPoints.small}) {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
   }
+`;
+
+export const StyledContentWrapper = styled.div`
+  text-align: right;
+  width: 100%;
+  height: 100%;
+`;
+
+export const StyledContentCard = styled.span`
+  width: 100%;
+  font-size: ${({ theme }) => theme.fonts.sizes.textLarge};
+  font-weight: 400;
 `;
